@@ -1,3 +1,14 @@
+
+
+
+****To do:
+confirm double clicking save button deletes local storage
+make pop-up bubble when hovering over save button to
+indicate double click deletes content
+
+
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
