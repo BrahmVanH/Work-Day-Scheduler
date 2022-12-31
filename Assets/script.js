@@ -13,18 +13,14 @@ $(document).ready(function() {
 
     // To save user's logged event in local storage
     $('.saveBtn').on('click', function() {
-      
       userEntry = $(this).siblings('.description').val();
       timeKey = $(this).parent().attr('id');
       localStorage.setItem(timeKey, userEntry);
-
     })
 
 // Used to accurately track the current time of day
 
     function timeTracker () {
-      
-     
       
       var currentTime = dayjs().hour();
       console.log(currentTime);
