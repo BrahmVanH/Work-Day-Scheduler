@@ -2,6 +2,23 @@
   font-family: 'Comfortaa', serif, cursive;
 }
 
+#key {
+  
+  border-bottom: solid #761027;
+  border-right: solid #761027;
+  display: flex;
+  background-color:rgb(203, 195, 87, .6);
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 3%;
+
+
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -42,7 +59,7 @@ textarea {
 }
 
 .hour {
-  background-color: #cbc357;
+  background-color: rgb(203, 195, 87);
   color: #000000;
   border-top: 1px dashed #000000;
   border-top-left-radius: 15px;
