@@ -2,7 +2,7 @@
 
 # Description
 
-This aaplication is designed to help maintain an organized work-day schedule. The user has the option to enter events for hourly time blocks and save them to their browser's local storage for later reference.
+This application is designed to help maintain an organized work-day schedule. The user has the option to enter events for hourly time blocks and save them to their browser's local storage for later reference.
 
 https://brahmvanh.github.io/Work-Day-Scheduler/
 

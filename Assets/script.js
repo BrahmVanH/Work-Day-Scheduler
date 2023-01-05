@@ -1,7 +1,16 @@
-// Used day.js to display current date at top of application
+// Used day.js to display current date & time at top of application
+// Setting an interval that calls a function to update the current time every second. 
+setInterval(timeUpdate, 1000);
 
-var currentDay = dayjs().format('MMM D, YYYY')
-$('#currentDay').text(currentDay);
+
+function timeUpdate() {
+    
+  const currentDate = dayjs().format('MMM D, YYYY');
+  const currentTime = dayjs().format('hh:mm:ss a');
+$('#currentDate').text(currentDate);
+$('#currentTime').text(currentTime);
+
+}
 
 // All of the application's functions are nested inside a .ready() method 
 //to ensure that all of the code has been processed on page load before running.
